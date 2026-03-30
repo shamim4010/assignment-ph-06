@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 
-function Header() {
+function Header({notifyP}) {
   return (
     <header>
-        <Navbar />
+        <Navbar notify = {notifyP}/>
     </header>
   )
 }

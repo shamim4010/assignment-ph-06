@@ -5,11 +5,15 @@ import Mainbody from './Components/Mainbody/Mainbody'
 import Footer from './Components/Footer/Footer'
 
 function App() {
-  const [notify, setNotify] = useState(0  )
+  const [notify, setNotify] = useState(0);
+
+  const allProps = {
+    notify, setNotify
+  }
 
   return (
     <>
-      <Header />
+      <Header notifyP = {allProps} />
       <Mainbody />
       <Footer />
     </>
