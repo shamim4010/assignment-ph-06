@@ -5,16 +5,18 @@ import Mainbody from './Components/Mainbody/Mainbody'
 import Footer from './Components/Footer/Footer'
 
 function App() {
-  const [notify, setNotify] = useState(0);
+  const [notifyCount, setNotifyCount] = useState(0);
+  const [products, setProducts] = useState([]);
+  const [toggle, setToggle] = useState('products');
 
   const allProps = {
-    notify, setNotify
+    notifyCount, setNotifyCount, products, setProducts, toggle, setToggle
   }
 
   return (
     <>
       <Header notifyP = {allProps} />
-      <Mainbody />
+      <Mainbody allProps = {allProps} />
       <Footer />
     </>
   )

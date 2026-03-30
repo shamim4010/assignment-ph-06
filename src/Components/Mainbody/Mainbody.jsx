@@ -1,8 +1,11 @@
 import React from 'react'
+import Products from './Products/products'
 
-function Mainbody() {
+function Mainbody({allProps}) {
   return (
-    <div>Mainbody</div>
+    <div>
+      <Products allProps = {allProps} />
+    </div>
   )
 }
 
