@@ -1,5 +1,5 @@
 import React from 'react'
-import Products from './Products/products'
+import Products from './Products/Products'
 
 function Mainbody({allProps}) {
   return (

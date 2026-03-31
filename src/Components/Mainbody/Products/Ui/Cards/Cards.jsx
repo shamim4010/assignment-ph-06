@@ -1,19 +1,24 @@
 import React, { useState } from 'react'
+import {toast } from 'react-toastify';
 
 function Cards({allProps, product, selectProducts, setSelectProducts}) {
     const [isBuy, setIsBuy] = useState(false);
 
     const handleMange = () => {
-        const timeOut = setTimeout(() => {
+        allProps.setNotifyCount(allProps.notifyCount + 1);
+        toast.success(`${product.name} Product Add to Cart Success`,{autoClose: 2000,})
+        setTimeout(() => {
             setIsBuy(true)
         },0);
         setTimeout(() => {
             setIsBuy(false)
-        }, 3000);
+        }, 2500);
+
+        setSelectProducts([...selectProducts,product])
     }
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-sm">
+            <div className="card m-2 bg-base-100 shadow-[0_0_12px_rgba(0,0,0,0.6)]">
                 <div className="card-body">
                     <div className='flex justify-end'>
                         <span className={`badge badge-xs ${product.tag === "best seller" ? 'bg-amber-200 text-amber-600' : product.tag === "popular" ? 'bg-purple-200 text-purple-500' : 'bg-green-200 text-green-600'}`}>{product.tag}</span>

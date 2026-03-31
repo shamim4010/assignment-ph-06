@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Mainbody from './Components/Mainbody/Mainbody'
 import Footer from './Components/Footer/Footer'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
   const [notifyCount, setNotifyCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       <Header notifyP = {allProps} />
       <Mainbody allProps = {allProps} />
       <Footer />
+      <ToastContainer />
     </>
   )
 }
