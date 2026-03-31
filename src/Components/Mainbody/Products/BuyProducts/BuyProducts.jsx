@@ -7,7 +7,11 @@ function BuyProducts({allProps, promiseProducts}) {
 
   return (
     <div>
-        
+        {products.map((product) => {
+          return (
+            <Cards {...{allProps, product, selectProducts, setSelectProducts}} />
+          );
+        })}
     </div>
   )
 }
