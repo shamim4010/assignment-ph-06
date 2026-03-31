@@ -1,6 +1,7 @@
 import React from 'react'
 
-function SelectedCards({product, selectProducts, setSelectProducts}) {
+function SelectedCards({product, handleRemove, totalPrice, setTotalPrice}) {
+  
   return (
       <div>
           <div className='p-8 flex justify-between'>
@@ -11,7 +12,7 @@ function SelectedCards({product, selectProducts, setSelectProducts}) {
                 <span>${product.price}</span>
               </div>
             </div>
-            <button className='cursor-pointer active:scale-[0.9] text-[#FF3980]'>Remove</button>
+            <button onClick={()=> handleRemove(product)} className='cursor-pointer active:scale-[0.9] text-[#FF3980]'>Remove</button>
           </div>
       </div>
   )

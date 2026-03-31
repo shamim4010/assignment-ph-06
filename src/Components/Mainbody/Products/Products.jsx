@@ -16,7 +16,7 @@ function Products({allProps}) {
     <div>
         <Toggle allProps = {allProps} />
         <Suspense fallback={<span className="loading loading-spinner text-primary loading-xl"></span>}>
-          {allProps.toggle === 'products' ? <BuyProducts {...{allProps, promiseProducts, selectProducts, setSelectProducts}} />:<Carts {...{selectProducts, setSelectProducts}} />}
+          {allProps.toggle === 'products' ? <BuyProducts {...{allProps, promiseProducts, selectProducts, setSelectProducts}} />:<Carts {...{allProps, selectProducts, setSelectProducts}} />}
         </Suspense>
     </div>
   )
