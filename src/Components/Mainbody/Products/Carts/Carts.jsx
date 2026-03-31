@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { IoFileTray } from 'react-icons/io5'
 import SelectedCards from '../Ui/Cards/SelectedCards'
+import { toast } from 'react-toastify';
 
 
 function Carts({allProps, selectProducts, setSelectProducts}) {
@@ -16,6 +17,7 @@ function Carts({allProps, selectProducts, setSelectProducts}) {
   const clearData = () => {
     setSelectProducts([])
     allProps.setNotifyCount(0)
+    toast.success('Procces Complet ')
   }
   return (
     <div>
