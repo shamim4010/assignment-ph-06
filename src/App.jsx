@@ -6,11 +6,10 @@ import Footer from './Components/Footer/Footer'
 
 function App() {
   const [notifyCount, setNotifyCount] = useState(0);
-  const [products, setProducts] = useState([]);
   const [toggle, setToggle] = useState('products');
 
   const allProps = {
-    notifyCount, setNotifyCount, products, setProducts, toggle, setToggle
+    notifyCount, setNotifyCount, toggle, setToggle
   }
 
   return (

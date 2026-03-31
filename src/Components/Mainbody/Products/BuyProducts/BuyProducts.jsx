@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { use, useState } from 'react'
+import Cards from '../Ui/Cards/Cards';
 
-function BuyProducts() {
+function BuyProducts({allProps, promiseProducts}) {
+  const [selectProducts, setSelectProducts] = useState([])
+  const products = use(promiseProducts);
+
   return (
-    <div>hello</div>
+    <div>
+        
+    </div>
   )
 }
 

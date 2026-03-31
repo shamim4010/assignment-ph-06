@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "AI-powered writing assistant for blogs, ads, and content.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Blog & ad copy generator",
+      "Grammar correction",
+      "Multi-language support"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Writing Pro Plus",
+    "description": "Advanced AI writing with long-form and SEO optimization.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Long-form writing",
+      "SEO optimization",
+      "Content rewriting"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 3,
+    "name": "Design Templates Pack",
+    "description": "Collection of modern UI/UX templates for web and apps.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ UI templates",
+      "Figma files",
+      "Fully customizable"
+    ],
+    "icon": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 4,
+    "name": "Design Templates Premium",
+    "description": "Premium design pack with advanced layouts and assets.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "150+ templates",
+      "Dark & light versions",
+      "Mobile responsive"
+    ],
+    "icon": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 5,
+    "name": "Premium Stock Assets",
+    "description": "High-quality images, icons, and graphics for projects.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited downloads",
+      "HD images",
+      "Icon packs"
+    ],
+    "icon": "/src/assets/products/shopping-cart.png"
+  },
+  {
+    "id": 6,
+    "name": "Stock Assets Unlimited",
+    "description": "Unlimited access to premium stock photos and videos.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Photos + videos",
+      "Commercial license",
+      "4K assets"
+    ],
+    "icon": "/src/assets/products/shopping-cart.png"
+  },
+  {
+    "id": 7,
+    "name": "Automation Toolkit",
+    "description": "Automate workflows and repetitive tasks بسهولة.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Task automation",
+      "API integrations",
+      "Workflow builder"
+    ],
+    "icon": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 8,
+    "name": "Automation Toolkit Pro",
+    "description": "Advanced automation with AI and scheduling tools.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI automation",
+      "Advanced scheduling",
+      "Multi-app integration"
+    ],
+    "icon": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 9,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
+    "price": 12,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "ATS-friendly templates",
+      "Export to PDF",
+      "Easy editing"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 10,
+    "name": "Resume Builder Ultimate",
+    "description": "All-in-one resume and cover letter builder.",
+    "price": 35,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + cover letter",
+      "Custom sections",
+      "Cloud save"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 11,
+    "name": "Social Media Content Kit",
+    "description": "Ready-made content templates for social platforms.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Instagram templates",
+      "Post captions",
+      "Hashtag generator"
+    ],
+    "icon": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 12,
+    "name": "Social Media Growth Kit",
+    "description": "Boost engagement with advanced content tools.",
+    "price": 22,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Analytics insights",
+      "Content scheduler",
+      "Trend suggestions"
+    ],
+    "icon": "/src/assets/products/shopping-cart.png"
+  }
+]
