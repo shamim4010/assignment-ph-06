@@ -11,24 +11,24 @@ function Footer() {
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-xl font-bold'>Product</h3>
-          <a className='text-xs opacity-[0.7]'>Features</a>
-          <a className='text-xs opacity-[0.7]'>Pricing</a>
-          <a className='text-xs opacity-[0.7]'>Templates</a>
-          <a className='text-xs opacity-[0.7]'>Integrations</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Features</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Pricing</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Templates</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Integrations</a>
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-xl font-bold'>Company</h3>
-          <a className='text-xs opacity-[0.7]'>About</a>
-          <a className='text-xs opacity-[0.7]'>Blog</a>
-          <a className='text-xs opacity-[0.7]'>Careers</a>
-          <a className='text-xs opacity-[0.7]'>Press</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>About</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Blog</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Careers</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Press</a>
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-xl font-bold'>Resources</h3>
-          <a className='text-xs opacity-[0.7]'>Documentation</a>
-          <a className='text-xs opacity-[0.7]'>Help Center</a>
-          <a className='text-xs opacity-[0.7]'>Community</a>
-          <a className='text-xs opacity-[0.7]'>Contact</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Documentation</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Help Center</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Community</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Contact</a>
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-xl font-bold'>Social Links</h3>
@@ -43,9 +43,9 @@ function Footer() {
       <div className='flex flex-col items-center gap-3 sm:flex-row sm:justify-between'>
         <p className='text-xs opacity-[0.7]'>© 2026 Digitools. All rights reserved.</p>
         <div className='flex gap-4'>
-          <a className='text-xs opacity-[0.7]'>Privacy Policy</a>
-          <a className='text-xs opacity-[0.7]'>Terms of Service</a>
-          <a className='text-xs opacity-[0.7]'>Cookies</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Privacy Policy</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Terms of Service</a>
+          <a className='text-xs opacity-[0.7] cursor-pointer'>Cookies</a>
         </div>
       </div>
     </div>
