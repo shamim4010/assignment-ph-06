@@ -3,7 +3,7 @@ import React from 'react'
 function SelectedCards({product, handleRemove, totalPrice, setTotalPrice}) {
   
   return (
-      <div>
+      <div key={product.id}>
           <div className='p-8 flex justify-between'>
             <div className='flex justify-center items-center gap-2'>
               <img src={product.icon} alt="" />

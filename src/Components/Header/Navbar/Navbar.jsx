@@ -37,7 +37,7 @@ function Navbar({notify}) {
                 </div>
             </div>
             <button><a>Login</a></button>
-            <a className="px-[12px] py-[8px] text-white rounded-4xl bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] cursor-pointer active:scale-[0.98]">Get Started</a>
+            <a className="text-sm py-2 px-[4px] sm:px-2 text-center text-white rounded-4xl bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] cursor-pointer active:scale-[0.98]">Get Started</a>
         </div>
     </div>
   )

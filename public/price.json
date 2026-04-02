@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "description": "Perfect for getting started",
+    "price": 0,
+    "period": "monthly",
+    "tag": "Free",
+    "tagType": "",
+    "highlight": false,
+    "features": [
+      "Basic features access",
+      "Limited templates",
+      "Community support"
+    ],
+    "buttonText": "Get Started Free",
+    "icon": "Smile"
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "description": "Best for professionals",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Most Popular",
+    "tagType": "popular",
+    "highlight": true,
+    "features": [
+      "All starter features",
+      "100+ templates",
+      "Priority support",
+      "Advanced tools"
+    ],
+    "buttonText": "Start Pro Trial",
+    "icon": "Zap"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "description": "For teams and businesses",
+    "price": 99,
+    "period": "monthly",
+    "tag": "Best Sell",
+    "tagType": "",
+    "highlight": false,
+    "features": [
+      "Unlimited access",
+      "Team collaboration",
+      "Dedicated support",
+      "Custom integrations"
+    ],
+    "buttonText": "Contact Sales",
+    "icon": "Building"
+  }
+]

@@ -3,6 +3,7 @@ import {toast } from 'react-toastify';
 
 function Cards({allProps, product, selectProducts, setSelectProducts}) {
     const [isBuy, setIsBuy] = useState(false);
+    const [isDisable, setIsDisable] = useState(false)
 
     const handleMange = () => {
         allProps.setNotifyCount(allProps.notifyCount + 1);
@@ -12,12 +13,13 @@ function Cards({allProps, product, selectProducts, setSelectProducts}) {
         },0);
         setTimeout(() => {
             setIsBuy(false)
+            setIsDisable(true)
         }, 2500);
 
         setSelectProducts([...selectProducts,product])
     }
     return (
-        <div>
+        <div key={product.id}>
             <div className="card m-2 bg-base-100 shadow-[0_0_12px_rgba(0,0,0,0.6)]">
                 <div className="card-body">
                     <div className='flex justify-end'>
@@ -36,7 +38,7 @@ function Cards({allProps, product, selectProducts, setSelectProducts}) {
                         })}
                     </ul>
                     <div className="mt-6">
-                        <button onClick={handleMange} className={`btn btn-block rounded-4xl transition-all duration-[0.4s] ease-in ${isBuy ? 'bg-[linear-gradient(120deg,#38F9D7_0%,#96e6a1_100%)] text-black scale-[0.9]':'bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] text-white scale-[0.8]'}`}>{isBuy ? 'Add to Cart Success':'Buy Product' }</button>
+                        <button onClick={handleMange} disabled={isDisable} className={`btn btn-block rounded-4xl transition-all duration-[0.4s] ease-in ${isBuy ? 'bg-[linear-gradient(120deg,#38F9D7_0%,#96e6a1_100%)] text-black scale-[0.9]':'bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] text-white scale-[0.8]'} ${isDisable && 'opacity-[0.6]'}`}>{isBuy ? 'Add to Cart Success':'Buy Product'}</button>
                     </div>
                 </div>
             </div>
