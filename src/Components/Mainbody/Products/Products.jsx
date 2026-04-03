@@ -4,7 +4,7 @@ import BuyProducts from './BuyProducts/BuyProducts'
 import Carts from './Carts/Carts'
 
 const fetchProducts = async () => {
-  const res = await fetch('/public/products.json');
+  const res = await fetch('/products.json');
   return res.json();
 }
 

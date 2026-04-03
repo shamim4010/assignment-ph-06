@@ -1,4 +1,7 @@
 import React from 'react'
+import user from '../../../assets/user.png'
+import packages from '../../../assets/package.png'
+import rocket from '../../../assets/rocket.png'
 
 function WorkSteps() {
   return (
@@ -12,7 +15,7 @@ function WorkSteps() {
           <div className='w-full flex justify-end'>
             <div className='bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] px-2 py-[5px] text-white rounded-full'>01</div>
           </div>
-          <img src="/src/assets/user.png" alt="user" width={50} />
+          <img src={user} alt="user" width={50} />
           <h2 className='text-2xl'>Create Account</h2>
           <p className='text-xs opacity-[0.7]'>Sign up for free in seconds. No credit card required to get started.</p>
         </div>
@@ -20,7 +23,7 @@ function WorkSteps() {
           <div className='w-full flex justify-end'>
             <div className='bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] px-2 py-[5px] text-white rounded-full'>02</div>
           </div>
-          <img src="/src/assets/package.png" alt="user" width={50} />
+          <img src={packages} alt="package" width={50} />
           <h2 className='text-2xl'>Choose Products</h2>
           <p className='text-xs opacity-[0.7]'>Browse our catalog and select the tool sthat fit your needs.</p>
         </div>
@@ -28,7 +31,7 @@ function WorkSteps() {
           <div className='w-full flex justify-end'>
             <div className='bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] px-2 py-[5px] text-white rounded-full'>03</div>
           </div>
-          <img src="/src/assets/rocket.png" alt="user" width={50} />
+          <img src={rocket} alt="rocket" width={50} />
           <h2 className='text-2xl'>Start Creating</h2>
           <p className='text-xs opacity-[0.7]'>Download and start using your premium tools immediately.</p>
         </div>

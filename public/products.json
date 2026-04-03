@@ -12,7 +12,7 @@
       "Grammar correction",
       "Multi-language support"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon": "/products/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "SEO optimization",
       "Content rewriting"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon": "/products/writing_2327400 1.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Figma files",
       "Fully customizable"
     ],
-    "icon": "/src/assets/products/design-tool.png"
+    "icon": "products/design-tool.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "Dark & light versions",
       "Mobile responsive"
     ],
-    "icon": "/src/assets/products/design-tool.png"
+    "icon": "products/design-tool.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "HD images",
       "Icon packs"
     ],
-    "icon": "/src/assets/products/shopping-cart.png"
+    "icon": "/products/shopping-cart.png"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Commercial license",
       "4K assets"
     ],
-    "icon": "/src/assets/products/shopping-cart.png"
+    "icon": "/products/shopping-cart.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "API integrations",
       "Workflow builder"
     ],
-    "icon": "/src/assets/products/operation.png"
+    "icon": "/products/operation.png"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
       "Advanced scheduling",
       "Multi-app integration"
     ],
-    "icon": "/src/assets/products/operation.png"
+    "icon": "/products/operation.png"
   },
   {
     "id": 9,
@@ -132,7 +132,7 @@
       "Export to PDF",
       "Easy editing"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 10,
@@ -147,7 +147,7 @@
       "Custom sections",
       "Cloud save"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 11,
@@ -162,7 +162,7 @@
       "Post captions",
       "Hashtag generator"
     ],
-    "icon": "/src/assets/products/social-media.png"
+    "icon": "/products/social-media.png"
   },
   {
     "id": 12,
@@ -177,6 +177,6 @@
       "Content scheduler",
       "Trend suggestions"
     ],
-    "icon": "/src/assets/products/shopping-cart.png"
+    "icon": "/products/shopping-cart.png"
   }
 ]

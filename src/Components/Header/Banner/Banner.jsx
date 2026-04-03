@@ -1,4 +1,6 @@
 import React from 'react'
+import play from '../../../assets/Play.png'
+import banner from '../../../assets/banner.png'
 
 function Banner() {
   return (
@@ -14,10 +16,10 @@ function Banner() {
         </p>
         <div className='flex md:flex-col lg:flex-row gap-2'>
           <button className='btn rounded-4xl text-white bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)]'>Explore Products</button>
-          <button className='rounded-4xl bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] border border-1 '><p className='btn bg-white w-full  rounded-4xl'><span className='bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] text-transparent bg-clip-text flex gap-2'> <img src="/src/assets/Play.png" alt="" /> Watch Demo</span></p></button>
+          <button className='rounded-4xl bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] border border-1 '><p className='btn border-none bg-white w-full  rounded-4xl'><span className='bg-[linear-gradient(to_right,rgba(79,57,246,1)_0%,rgba(149,20,250,1)_100%)] text-transparent bg-clip-text flex gap-2'> <img src={play} alt="" /> Watch Demo</span></p></button>
         </div>
       </div>
-      <img src="/src/assets/banner.png" alt="" width={500} />
+      <img src={banner} alt="banner" width={500} />
     </div>
   )
 }

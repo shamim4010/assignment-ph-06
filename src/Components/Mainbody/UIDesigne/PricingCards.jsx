@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import PriceCard from './PriceCard';
 
 const PricingFetch = async () =>{
-  const res = await fetch('/public/price.json');
+  const res = await fetch('/price.json');
   return res.json()
 }
 
